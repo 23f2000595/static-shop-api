@@ -1,0 +1,198 @@
+{
+  "metadata": {
+    "email": "23f2000595@ds.study.iitm.ac.in",
+    "version": "a427719c",
+    "lastUpdated": "2024-01-15T00:00:00Z",
+    "totalProducts": 18
+  },
+  "products": [
+    {
+      "id": 1,
+      "name": "The Great Gatsby",
+      "category": "books",
+      "price": 12.99,
+      "stock": 45,
+      "rating": 4.5
+    },
+    {
+      "id": 2,
+      "name": "To Kill a Mockingbird",
+      "category": "books",
+      "price": 14.99,
+      "stock": 32,
+      "rating": 4.8
+    },
+    {
+      "id": 3,
+      "name": "1984",
+      "category": "books",
+      "price": 11.99,
+      "stock": 28,
+      "rating": 4.7
+    },
+    {
+      "id": 4,
+      "name": "Smartphone X",
+      "category": "electronics",
+      "price": 699.99,
+      "stock": 15,
+      "rating": 4.6
+    },
+    {
+      "id": 5,
+      "name": "Laptop Pro",
+      "category": "electronics",
+      "price": 1299.99,
+      "stock": 8,
+      "rating": 4.8
+    },
+    {
+      "id": 6,
+      "name": "Wireless Headphones",
+      "category": "electronics",
+      "price": 89.99,
+      "stock": 50,
+      "rating": 4.3
+    },
+    {
+      "id": 7,
+      "name": "Smart Watch",
+      "category": "electronics",
+      "price": 249.99,
+      "stock": 22,
+      "rating": 4.4
+    },
+    {
+      "id": 8,
+      "name": "Tablet",
+      "category": "electronics",
+      "price": 329.99,
+      "stock": 12,
+      "rating": 4.2
+    },
+    {
+      "id": 9,
+      "name": "T-Shirt",
+      "category": "clothing",
+      "price": 19.99,
+      "stock": 100,
+      "rating": 4.1
+    },
+    {
+      "id": 10,
+      "name": "Jeans",
+      "category": "clothing",
+      "price": 49.99,
+      "stock": 65,
+      "rating": 4.3
+    },
+    {
+      "id": 11,
+      "name": "Jacket",
+      "category": "clothing",
+      "price": 89.99,
+      "stock": 30,
+      "rating": 4.6
+    },
+    {
+      "id": 12,
+      "name": "Sneakers",
+      "category": "clothing",
+      "price": 79.99,
+      "stock": 45,
+      "rating": 4.4
+    },
+    {
+      "id": 13,
+      "name": "Coffee Maker",
+      "category": "home",
+      "price": 79.99,
+      "stock": 25,
+      "rating": 4.5
+    },
+    {
+      "id": 14,
+      "name": "Blender",
+      "category": "home",
+      "price": 49.99,
+      "stock": 30,
+      "rating": 4.2
+    },
+    {
+      "id": 15,
+      "name": "Toaster",
+      "category": "home",
+      "price": 39.99,
+      "stock": 40,
+      "rating": 4.0
+    },
+    {
+      "id": 16,
+      "name": "Yoga Mat",
+      "category": "sports",
+      "price": 29.99,
+      "stock": 60,
+      "rating": 4.7
+    },
+    {
+      "id": 17,
+      "name": "Dumbbells Set",
+      "category": "sports",
+      "price": 89.99,
+      "stock": 25,
+      "rating": 4.8
+    },
+    {
+      "id": 18,
+      "name": "Jump Rope",
+      "category": "sports",
+      "price": 15.99,
+      "stock": 85,
+      "rating": 4.3
+    }
+  ],
+  "aggregations": {
+    "byCategory": {
+      "books": {
+        "count": 3,
+        "inventoryValue": 698.42,
+        "avgPrice": 13.32,
+        "avgRating": 4.67,
+        "totalStock": 105
+      },
+      "electronics": {
+        "count": 5,
+        "inventoryValue": 26749.85,
+        "avgPrice": 533.99,
+        "avgRating": 4.46,
+        "totalStock": 107
+      },
+      "clothing": {
+        "count": 4,
+        "inventoryValue": 11998.60,
+        "avgPrice": 59.99,
+        "avgRating": 4.35,
+        "totalStock": 240
+      },
+      "home": {
+        "count": 3,
+        "inventoryValue": 5099.25,
+        "avgPrice": 56.66,
+        "avgRating": 4.23,
+        "totalStock": 95
+      },
+      "sports": {
+        "count": 3,
+        "inventoryValue": 5649.15,
+        "avgPrice": 45.32,
+        "avgRating": 4.6,
+        "totalStock": 170
+      }
+    },
+    "totals": {
+      "totalInventoryValue": 50195.27,
+      "totalProducts": 18,
+      "totalStock": 717
+    }
+  }
+}
