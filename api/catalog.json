@@ -155,44 +155,44 @@
     "byCategory": {
       "books": {
         "count": 3,
-        "inventoryValue": 372*50 + 261.79*9 + 461.19*106,
-        "avgPrice": (372 + 261.79 + 461.19)/3,
-        "avgRating": (4.1 + 1.4 + 2.9)/3,
-        "totalStock": 50 + 9 + 106
+        "inventoryValue": 69842.25,
+        "avgPrice": 364.99,
+        "avgRating": 2.8,
+        "totalStock": 165
       },
       "electronics": {
         "count": 2,
-        "inventoryValue": 434.15*87 + 433.48*48,
-        "avgPrice": (434.15 + 433.48)/2,
-        "avgRating": (4.6 + 1.1)/2,
-        "totalStock": 87 + 48
+        "inventoryValue": 58566.69,
+        "avgPrice": 433.82,
+        "avgRating": 2.85,
+        "totalStock": 135
       },
       "sports": {
         "count": 9,
-        "inventoryValue": 172.71*172 + 245.36*20 + 362.65*35 + 144.57*94 + 424.67*75 + 248.19*155 + 357.7*161 + 168.46*197 + 36.63*126,
-        "avgPrice": (172.71 + 245.36 + 362.65 + 144.57 + 424.67 + 248.19 + 357.7 + 168.46 + 36.63)/9,
-        "avgRating": (3 + 3 + 2.5 + 1.8 + 2.5 + 2.5 + 1.9 + 1 + 4.6)/9,
-        "totalStock": 172 + 20 + 35 + 94 + 75 + 155 + 161 + 197 + 126
+        "inventoryValue": 222  .33,
+        "avgPrice": 240.11,
+        "avgRating": 2.49,
+        "totalStock": 1035
       },
       "home": {
         "count": 2,
-        "inventoryValue": 274.15*35 + 185.26*115,
-        "avgPrice": (274.15 + 185.26)/2,
-        "avgRating": (4.3 + 4.2)/2,
-        "totalStock": 35 + 115
+        "inventoryValue": 30886.95,
+        "avgPrice": 229.71,
+        "avgRating": 4.25,
+        "totalStock": 150
       },
       "clothing": {
         "count": 2,
-        "inventoryValue": 63.7*90 + 427.1*89,
-        "avgPrice": (63.7 + 427.1)/2,
-        "avgRating": (2.4 + 3.1)/2,
-        "totalStock": 90 + 89
+        "inventoryValue": 43739.6,
+        "avgPrice": 245.4,
+        "avgRating": 2.75,
+        "totalStock": 179
       }
     },
     "totals": {
-      "totalInventoryValue": "Calculate sum of all category inventoryValue",
+      "totalInventoryValue": 226156.82,
       "totalProducts": 18,
-      "totalStock": "Calculate sum of all category totalStock"
+      "totalStock": 1664
     }
   }
 }
