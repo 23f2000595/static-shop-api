@@ -169,7 +169,7 @@
       },
       "sports": {
         "count": 9,
-        "inventoryValue": 222  .33,
+        "inventoryValue": 222555.33,
         "avgPrice": 240.11,
         "avgRating": 2.49,
         "totalStock": 1035
@@ -183,14 +183,14 @@
       },
       "clothing": {
         "count": 2,
-        "inventoryValue": 43739.6,
-        "avgPrice": 245.4,
+        "inventoryValue": 43739.60,
+        "avgPrice": 245.40,
         "avgRating": 2.75,
         "totalStock": 179
       }
     },
     "totals": {
-      "totalInventoryValue": 226156.82,
+      "totalInventoryValue": 425590.82,
       "totalProducts": 18,
       "totalStock": 1664
     }
