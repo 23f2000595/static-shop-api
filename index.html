@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Static Shop API</title>
+</head>
+<body>
+    <h1>Static Shop API</h1>
+    <p>Email: 23f2000595@ds.study.iitm.ac.in</p>
+    <p>JSON data available at: <a href="data.json">data.json</a></p>
+    <script>
+        // This confirms the JSON is accessible
+        fetch('data.json')
+            .then(response => response.json())
+            .then(data => {
+                console.log('JSON loaded successfully:', data);
+                document.body.innerHTML += '<p style="color:green">✓ JSON loaded successfully with ' + data.products.length + ' products</p>';
+            })
+            .catch(error => {
+                console.error('Error loading JSON:', error);
+                document.body.innerHTML += '<p style="color:red">✗ Error loading JSON</p>';
+            });
+    </script>
+</body>
+</html>
